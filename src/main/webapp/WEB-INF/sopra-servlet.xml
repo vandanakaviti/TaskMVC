@@ -6,9 +6,9 @@
 https://www.springframework.org/schema/beans/spring-beans.xsd
 http://www.springframework.org/schema/context
 https://www.springframework.org/schema/context/spring-context.xsd">
-<context:component-scan base-package="com.task.taskcontroller"></context:component-scan>
+<context:component-scan base-package="com.task.controller"></context:component-scan>
 <bean class = "org.springframework.web.servlet.view.InternalResourceViewResolver">
-<property name = "prefix" value = "/WEB-INF/name/"/>
+<property name = "prefix" value = "/WEB-INF/details/"/>
 <property name = "suffix" value = ".jsp"/>
 </bean>
 </beans>

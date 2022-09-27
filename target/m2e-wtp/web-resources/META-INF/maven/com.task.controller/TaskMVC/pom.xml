@@ -26,11 +26,8 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>5.1.10.RELEASE</version>
 		</dependency>
+
 	</dependencies>
 
-	<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-war-plugin</artifactId>
-		<version>3.3.1</version>
-	</plugin>
+	
 </project>
